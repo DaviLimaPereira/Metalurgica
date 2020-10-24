@@ -9,7 +9,7 @@
         <header>
             <!-- Navbar fixa -->
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#">Navbar fixa</a>
+                <a class="navbar-brand" href="#">Hefesto's</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,11 +33,7 @@
             </nav>
         </header>
         @show
-        <main role="main" class="flex-shrink-0">
-            <div class="container">
-                @yield('conteudo')
-            </div>
-        </main>
+
         @section('footer')
             <footer class="footer mt-auto py-3">
                 <div class="container">
